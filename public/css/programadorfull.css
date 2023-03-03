@@ -1,0 +1,743 @@
+.item-1 {
+    color: #8a8888;
+}
+
+.creacionAviso {
+    color: #8a8888;
+}
+
+.jobDetail {
+    color: #616161;
+    font-size: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+    padding: 10px;
+}
+
+.grid-container .item-3 {
+    /*text-align: right;*/
+    /*margin-top: 30px;*/
+    /*margin-left: 280px;*/
+}
+
+.grid-container .item-3 a {
+    /*margin: 0 56px 0 0;*/
+    /*font-size: 34px;*/
+    /*color: #8a8888;*/
+}
+
+nav.navbar-create-ad a {
+    text-decoration: none;
+    color: #000;
+    font-size: 21px;
+}
+
+nav.navbar-create-ad a:hover {
+    /*color: #1abc9c;*/
+    color: #339698;
+}
+
+.perfil-c {
+    /*position: relative;*/
+    background-color: #DCF2EB;
+    border: 2px solid #7fbebf;
+    /*border-radius: 25px;*/
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    top: 18px;
+    /*left: 162px;*/
+    /*margin-top: -28px;*/
+    transform: translate(1%, -45%);
+}
+
+.perfil-c span {
+    font-size: 18px;
+    color: #339698;
+/*    top: 50%;
+    left: 50%;*/
+    position: absolute;
+    transform: translate(-50%, -49%);
+}
+
+.perfil-c i {
+    /*margin-left: 44px;*/
+    margin-top: 3px;
+    margin-left: 38px;
+    font-size: 30px;
+    color: #339698;
+}
+
+.tab {
+    overflow: hidden;
+    border: none;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #8a8888;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+    border-radius: 16px;
+}
+
+.tab button.active {
+    border-bottom: 2px solid #339698;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+}
+
+/* Contenido */
+
+.grid-container-cont-tab1 {
+    display: grid;
+    grid-template-columns: 38% 62%;
+    gap: 10px;
+}
+
+/* Contenido 1 */
+.col-01-pj {
+    /*height: 2000px;*/
+    height: 800px;
+    /*overflow: scroll;*/
+    overflow-y: scroll;
+
+}
+
+.btn-botones {
+    margin-bottom: 12px;
+}
+
+.btn-botones #button-col1 {
+    border: none;
+    border-radius: 25px;
+    background-color: inherit;
+    color: #8a8888;
+    cursor: pointer;
+    padding: 14px 16px;
+    float: left;
+    margin-left: 18px;
+}
+
+.btn-botones:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-botones #button-col1:hover {
+    background-color: #ddd;
+    border-radius: 16px;
+}
+
+.btn-botones #button-col1.active {
+    background-color: #fff;
+    /*color: #1abc9c;*/
+    color: #339698;
+}
+
+.search i {
+    font-size: 25px;
+    /*color: #1abc9c;*/
+    color: #339698;
+    margin-left: 6px;
+}
+
+.btn-botones .search {
+    border-radius: 25px;
+    background-color: #FAFAFA;
+    padding: 10px;
+    border: none;
+    margin-left: 57px;
+}
+
+.btn-botones .search:hover {
+    background-color: #ddd;
+}
+
+.btn-filtro {
+    float: left;
+    display: inline-flex;
+    margin-left: 12px;
+}
+
+.btn-filtro select {
+    margin-left: 22px;
+    float: left;
+    font-size: 12px;
+    color: #8a8888;
+    border: none;
+    background: transparent;
+}
+
+.select {
+    margin-left: 36px;
+}
+
+.grid-container-infoPerfil {
+    display: grid;
+    grid-template-columns: 80px 60% 300px;
+    gap: 10px;
+    float: left;
+    border: 2px solid white;
+    /*border: 2px solid green;*/
+    border-radius: 25px;
+    margin-top: 19px;
+}
+
+.col-perfil-1 {
+    margin-top: 30px;
+    margin-left: 13px;
+}
+
+ul {
+    list-style: none;
+}
+
+.imagenPerfil {
+    width: 24%;
+    float: left;
+}
+
+.imagenPerfil img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.imagenPerfil i {
+    margin-left: -18px;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 4px;
+    color: #8a8888;
+}
+
+.namePerfil {
+    /*color: #1abc9c;*/
+    color: #339698;
+}
+
+.grid-container-infoPerfil p {
+    color: #8a8888;
+    font-size: 14px;
+}
+
+.col-perfil-2 {
+    margin-left: -29px;
+
+}
+
+.col-perfil-3 {
+    margin-left: -30px;
+    width: 60%;
+}
+
+.col-perfil-3 i {
+    margin-left: 136px;
+    color: #848888;
+    font-size: 27px;
+}
+
+.ui-widgets {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    margin: 2px;
+    /*border: 4px solid #1abc9c;*/
+    border: 4px solid #339698;
+    box-shadow: inset 0 0 7px grey;
+    /*border-left-color: #1abc9c;*/
+    border-left-color: #339698;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ui-widgets .ui-values {
+    top: 14px;
+    position: absolute;
+    left: 5px;
+    right: 0;
+    font-weight: 700;
+    font-size: 13px;
+    color: #8a8888;
+}
+
+.col-perfil-3 p {
+    display: inline-block;
+    margin: 17px;
+}
+
+/* Contenido 2 */
+.col-02-pj {
+    height: 2000px;
+    overflow: scroll;
+}
+
+.btn-botones-col2 #button {
+    background: none;
+    border: none;
+    color: #8a8888;
+    padding: 12px;
+}
+
+#button:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+#button i {
+    color: #8a8888;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.btn-botones-col2 .btn-perfil {
+    /*color: #1abc9c;*/
+    color: #339698;
+    border: none;
+    border-radius: 25px;
+    background-color: #FAFAFA;
+    padding: 12px;
+}
+
+.btn-perfil i {
+    color: #8a8888;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.btn-descartar {
+    margin-left: 50px;
+}
+
+.dropbtn {
+    /*background: linear-gradient(#1abc4d, #1abc9c);*/
+    background: linear-gradient(#1abc4d, #339698);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    float: right;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: -12px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+    top: 41px;
+}
+
+.dropdown-content a {
+    color: #848888;
+    font-size: 12px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+.show {
+    display: block;
+}
+
+.contenidoPerfil {
+    border: 2px solid #fff;
+    border-radius: 25px;
+    margin-top: 12px;
+}
+
+.grid-container-contPerfil {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+
+}
+
+.imagen-contPerfil {
+    width: 24%;
+    float: left;
+
+}
+
+.imagen-contPerfil img {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.grid-container-contPerfil li {
+    display: inline-block;
+}
+
+.grid-container-contPerfil p {
+    color: #848888;
+    font-size: 12px;
+}
+
+.list-infoPerfil {
+    /*margin-right: 25px;*/
+    margin: 0px 0px 0px 33px;
+    width: 70%;
+}
+
+.name-contPerfil {
+    color: #848888;
+    margin: unset;
+}
+
+.grid-container-contPerfil li i {
+    /*color: #1abc9c;*/
+    color: #339698;
+    font-size: 16px;
+}
+
+.datos-perfil{
+    /*border: 1px solid #ADBDFF; */
+    margin-right: 150px;
+    font-size: 25px;
+}
+
+.resumen {
+    margin: 0px 0px 0px 33px;
+}
+
+.resumen h4 {
+    /*color: #1abc9c;*/
+    color: #339698;
+}
+
+.resumen p {
+    width: 100%;
+}
+
+.resumen hr {
+    width: 150%;
+    color: #848888;
+}
+
+.grid-container-contExperienca {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 16px;
+    padding: 10px;
+}
+
+hr {
+    width: 95%;
+}
+
+.experienciaTitulo h4 {
+    color: #1abc9c;
+    margin-left: 32px;
+}
+
+.experienciaTitulo i {
+    color: #1abc9c;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.experienciaTitulo .bxs-chevron-left {
+    color: #848888;
+    margin-left: 55%;
+}
+
+.contE-1 {
+    /*border: 1px solid #8a8888;*/
+    padding: 10px;
+    width: 84%;
+    border-radius: 25px;
+}
+
+.contE-1 p {
+    margin: unset;
+    color: #848888;
+    font-size: 12px;
+    margin-left: 15px;
+
+}
+
+.listExperiencia {
+    list-style: inherit;
+    color: #8a8883;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.preferenciaE h4 {
+    color: #1abc9c;
+    margin-left: 32px;
+    margin-bottom: -5px;
+}
+
+.grid-container-preferencia {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    padding: 10px;
+}
+
+.grid-container-preferencia p {
+    margin: unset;
+}
+
+.tituloList li {
+    margin-bottom: 16px;
+    color: #8a8883;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.subtituloList {
+    font-weight: normal;
+}
+
+.tituloList li p{
+    font-weight: bold;
+}
+
+.tituloList2 li {
+    color: #848888;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.idioma_badge {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 10px;
+    gap: 10px;
+
+    width: 220px;
+    height: 40px;
+
+    background: #FEFEFE;
+    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+    border-radius: 9px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-size: 15px;
+}
+
+.idiomaNivel {
+    color: #339698;
+}
+
+.preferenciaCol3 p {
+    color: #8a8883;
+    font-size: 12px;
+    margin-top: 60px;
+}
+
+.grid-container-referencia {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container-referencia p {
+    margin: unset;
+    font-size: 12px;
+    color: #8a8883;
+
+}
+
+.tituloReferencia {
+    font-weight: bold;
+}
+
+.containerFormulario {
+    float: right;
+}
+
+.habilidades {
+    margin-top: 85px;
+    margin-left: 32px;
+}
+
+.habilidades p {
+    color: #8a8883;
+    font-size: 12px;
+}
+
+.habilidades i {
+    float: right;
+    margin-top: -36px;
+    margin-right: 19px;
+}
+
+/******* Estilos para el tab *******/
+.tab button.active span.tab-name {
+    padding: 10px;
+    background-color: #eefafa;
+    border-radius: 25px;
+    /*color: #7fbebf;*/
+    color: #339698;
+}
+
+/*******Estilos Acordion*******/
+.acordion{
+    padding: 21px;
+}
+.accordion {
+    background-color: #fff;
+    color: #8a8883;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius:15px;
+    margin-top:12px;
+  }
+  .accordion strong{
+      /*color: #1abc9c;*/
+      color: #339698;
+  }
+
+  .accordion i.fa-solid { float: right; }
+  
+  .accordion.active {
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .active, .accordion:hover {
+    background-color: #fff; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 0px 0px 15px 15px;
+  }
+
+  .grid-container-habilidad{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    padding: 10px;
+  }
+
+ .grid-container-habilidad .tituloEncabezado{
+      /*color: #1abc9c;*/
+      color: #339698;
+      font-weight: bold;
+      font-size: 14px;
+  }
+
+  .grid-container-habilidad ul li{
+      margin-bottom: 10px;
+     color: #8a8888;
+     font-size: 13px;
+  }
+
+  .grid-container-btnfunciones{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      column-gap: 20px;
+      padding: 10px;
+  }
+
+  .grid-container-btnfunciones button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8a8888;
+    background: none;
+    border-radius: 15px;
+  }
+
+  .grid-container-btnfunciones i{
+      font-size: x-large;
+      color: #8a8883;
+  }
+
+  .archivopdf img{
+      padding: 56px;
+  }
+
+ .btn-secondLine button{
+     float: right;
+     margin-left: 12px;
+  }
+
+  .btn-secondLine{
+      margin-left: 12px;
+  }
+
+  .thirdLine button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8a8888;
+    background: none;
+    border-radius: 15px;
+  
+  }
+  .thirdLine i{
+    font-size: x-large;
+    color: #8a8883;
+}
+  .archivopdf{
+      padding: 20px;
+  }
+
+  .archivopdf .bxs-chevron-down{
+      /*color: #1abc9c;*/
+      color: #339698;
+  }

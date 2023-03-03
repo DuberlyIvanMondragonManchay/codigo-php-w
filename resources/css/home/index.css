@@ -1,0 +1,103 @@
+@import '../../../node_modules/swiper/swiper.min.css';
+
+body {
+    font-family: 'Poppins' !important;
+}
+.hero-banner {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/wortika-fe182.appspot.com/o/imagen-candidato.jpg?alt=media&token=5af22167-21dc-4523-ba0b-d4c843e46877');
+}
+.hero-banner-empresa {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/wortika-fe182.appspot.com/o/imagen-empresa.jpg?alt=media&token=375e5700-c41a-438e-b30c-19fa783239ab');
+
+}
+
+/* tags */
+
+
+.group:focus .group-focus\:-rotate-180 {
+    transform: rotate(-180deg) ;
+    }
+.group:focus .group-focus\:max-h-screen {
+    max-height: 100vh !important;
+}
+.group:focus .group-focus\:text-blue-ligth {
+    color: #339698;
+}
+
+
+.banner-perfiles {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/wortika-fe182.appspot.com/o/mapa.svg?alt=media&token=3cdd3275-d5b4-46e3-80c2-3bf15aa7733c');
+}
+
+.bg-section-empresa {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/wortika-fe182.appspot.com/o/fondo-section.png?alt=media&token=1fd7e1eb-b3a6-4101-832c-d7b81740f21f');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-login-candidato {
+
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/wortika-fe182.appspot.com/o/fondo-login-candidato.png?alt=media&token=c66b3410-cf0e-498d-ae86-62c4d70913a6');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.bg-login-empresa {
+    background-image: url('../../../public/img/fondo-login-empresa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-login::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.form-login::-webkit-scrollbar:vertical {
+    width:5px;
+}
+
+.form-login::-webkit-scrollbar-button:increment,.form-login::-webkit-scrollbar-button {
+    display: none;
+}
+
+.form-login::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+.form-login::-webkit-scrollbar-thumb {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+    border: 1px solid #E3E3E3;
+}
+
+.form-login::-webkit-scrollbar-track {
+    border-radius: 20px;
+}
+
+
+.active-wortika{
+    color:#339698;
+}
+
+
+.bg-gradient-wortika {
+    background: rgb(51,150,152);
+    background: linear-gradient(50deg, rgba(51,150,152,1) 30%, rgba(131,195,142,1) 100%);
+}
+
+
+[type='checkbox']:checked {
+   background-color: #339698 !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
